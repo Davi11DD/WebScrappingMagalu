@@ -1,8 +1,9 @@
-import Selenium
+import Navegacao
+produto_nome = input('Produto: ')
+visibilidade = input('Quer ver a Tela? [S|N]: ')
 
-produto = input('Produto: ')
+Navegacao.Selenium(produto_nome, visibilidade)
 
-Selenium.catchar(f'{produto}')
 
 
 
